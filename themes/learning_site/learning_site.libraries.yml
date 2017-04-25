@@ -1,0 +1,12 @@
+#learning_site.libraries.yml
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+      css/font-awesome.min.css: {}
+      css/font-awesome-42.min.css: {}
+      css/font-awesome-43.min.css: {}
+      css/node.css: {}
+  js:
+    js/abc.js: {}

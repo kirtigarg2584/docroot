@@ -1,0 +1,35 @@
+{# empty Twig template #}  
+
+<div>
+    <p>my adress: Tower B, 4th Floor, Logix Techno Park, Noida Express Way,
+        Sector 127, Noida, Uttar Pradesh 201304
+    </p>
+</div>
+<div>
+    <h1>Fetching data from database</h1>
+</div>
+
+<table border= 1>
+    <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Number</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>Email Id</th>
+    </tr>
+    
+  {#  {{ kint(result) }}   #}
+  
+     {% for record in result %}
+       <tr>
+         <td>{{ record.full_name }}</td>
+         <td>{{ record.gender }}</td>
+         <td>{{ record.number }}</td>
+         <td>{{ record.address }}</td>
+         <td>{{ record.city }}</td>
+         <td>{{ record.email_id }}</td>
+       </tr>
+    {% endfor %}
+    
+</table>

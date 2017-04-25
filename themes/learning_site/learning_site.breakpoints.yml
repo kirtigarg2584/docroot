@@ -1,0 +1,21 @@
+# learning_site.breakpoints.yml 
+learning_site.mobile:
+  label: mobile
+  mediaQuery: '(min-width: 0px)'
+  weigth: 2
+  multipliers:
+    - 1x
+
+learning_site.narrow:
+  label: narrow
+  mediaQuery: '(all and (min-width: 560px) and (max-width: 850px)'
+  wieght: 1
+  multipliers:
+    - 1x
+
+learning_site.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 851px)'
+  weigth: 0
+  multipliers:
+    - 1x

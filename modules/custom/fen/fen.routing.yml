@@ -1,0 +1,7 @@
+fen.form:
+  path: '/admin/fen'
+  defaults:
+    _form: '\Drupal\fen\Form\FenForm'
+    _title: 'Fen Form'
+  requirements:
+    _permission: 'access administration pages'

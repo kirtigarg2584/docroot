@@ -1,0 +1,10 @@
+<?php
+function services_2_theme(){
+    return['hello' => [
+        'variables' => ['result' => NULL, ]
+        ]
+    ];
+   
+}
+
+

@@ -1,0 +1,45 @@
+<?php
+  function services_2_schema(){
+    $schema['services_2']= array(
+      'fields' => array(
+        'full_name' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),
+        'id' => array(
+          'type' => 'serial',
+          'not null' => TRUE,
+        ),
+        'gender' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),
+        'number' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),
+        'address' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),
+        'city' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),
+        'email_id' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => TRUE,
+        ),  
+        
+    
+       ),
+       'primary key' => array('id'),
+    );
+    return $schema;
+  }

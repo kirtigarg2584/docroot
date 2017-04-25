@@ -1,0 +1,6 @@
+name: 'FEN'
+type: module
+description: 'FEN Form'
+package: Web services
+version: VERSION
+core: 8.x

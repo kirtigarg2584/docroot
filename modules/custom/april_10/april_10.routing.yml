@@ -1,0 +1,7 @@
+april_10.form:
+  path: '/admin/april_10'
+  defaults:
+    _form: '\Drupal\april_10\Form\Ajax_Form'
+    _title: 'AJAX Form'
+  requirements:
+    _permission: 'access administration pages'

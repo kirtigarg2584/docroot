@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+img.wp-smiley, img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/*
+* Drop Cap Shortcode styles
+*/
+
+span.dropcap {
+	display: inline;
+	margin: 0;
+	padding: .25em .08em 0 0;
+	#padding: 0.25em 0.08em 0.2em 0.00em; /* override for Microsoft Internet Explorer browsers*/
+	_padding: 0.25em 0.08em 0.4em 0.00em; /* override for IE browsers 6.0 and older */
+	line-height: .4em;
+	font-size: 3.2em;
+	font-family: "Georgia", "Times New Romans", "Trebuchet MS", "Lucida Grande";
+	text-transform: capitalize;
+	color: #c30;
+	float: left;
+}
+
+body.custom-background {
+	background-image: url('http://placehold.it/1280x853')!important;
+	background-repeat: no-repeat!important;
+	background-position: top center!important;
+	background-attachment: fixed!important;
+}
+
+/*ALL*/
+.element-invisible{
+	font-size: 0;	
+}
+.row.featured .block header {
+	position: absolute;
+	display: block;
+	margin-bottom: 0;
+}
+.tabs.primary li{
+	display: inline;
+	margin-right: 10px;
+}
+.tabs.primary li a{
+	padding: 5px 10px 5px 10px;
+}
+
+
+/*MID HEADER*/
+.header-link-menu .block {
+	display: inline;
+}
+
+/*BOT HEADER*/
+
+	/*search form hidden button*/
+.search_box_1 .form-actions.form-wrapper, .search_box_2 .form-actions.form-wrapper  {
+	visibility: hidden;	
+	height:0px;
+}
+
+/*CONTENT*/
+	/*Background*/
+.cfa-wrapper .block-image {
+	display: none;
+}
+.featured {
+	display: block;	
+}
+
+	/*Like*/
+.rate-yesno-btn {
+	background: none;
+	border: none;
+}
+.rate-yesno-btn:hover{
+	background: none	
+}
+.entry-meta .entry-like .rate-button.rate-yesno-btn:before {
+	content: "\f08a";	
+}
+	/*Comment*/
+.commentlist .indented{
+	margin: 0 0 0 90px;	
+}
+.links.inline {
+	display: -webkit-box;
+}
+.links.inline li{
+	margin-right: 10px;
+}
+.comment-form .form-actions input[type=submit]{
+	margin: 10px 0 10px 0;
+}
+.comment-form .form-actions #edit-preview {
+	display: none;	
+}
+
+	/*Overlay*/
+.overlay .fa:not(:last-child){
+	display: none;	
+}
+	
+	/*Contact form*/
+.contact-form label{
+	display: none;
+}
+.contact-form input[type=text]{
+	margin-bottom: 14px;
+}
+.contact-form input[type=submit]{
+	width:100%;
+}
+
+	/*Rate Single Post*/
+.single-rate {
+	float: right;	
+}
+
+	/*Pager*/
+.pager{
+	text-align:center;
+	display: block;
+	margin: 20px 0;
+}
+.pager .pager-current {
+	border-radius: 0;
+	/*border: 1px solid #ddd;*/
+	border: 3px solid #FA4D00;
+	padding: 11px 18px 11px 18px;
+	color: #fff;
+	font-weight: bold;
+}
+.pager li>a{
+	border-radius: 0;
+	padding: 11px 18px 11px 18px;
+	background-color: #212121;
+	color: #fff;
+	font-weight: bold;
+}
+
+#styles_switcher_color{
+	list-style:none;	
+}
+
+/*Twitter*/
+.twitter_feed .tweet-time {
+	font-size: 14px;
+	font-style: italic;	
+	font-weight: normal;
+	margin-top: 8px;
+	display: inline-block;
+}
+
+/*Search page*/
+.search-form input[type=text], .search-form input[type=submit]{
+	margin-bottom: 15px;	
+}
+.search-form input[type=text]{
+	margin-top: 15px;
+}
+.search-results.node-results li {
+	border-bottom: 1px dotted rgba(33,33,33,0.2);
+	padding-bottom:26px;
+	margin-bottom:24px;
+}

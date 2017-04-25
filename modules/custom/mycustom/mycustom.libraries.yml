@@ -1,0 +1,6 @@
+drupal.mycustom:
+  version: VERSION
+  js:
+    js/mycustom.js: {}
+  dependencies:
+    - core/jquery

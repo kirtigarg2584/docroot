@@ -1,0 +1,6 @@
+services:  
+  theme.negotiator.harsh_task:
+    class: Drupal\harsh_task\Theme\ServiceClass
+    arguments: ['@config.factory','@current_user']
+    #tags:
+    #  - { name: theme_negotiator, priority: 10 }

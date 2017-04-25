@@ -1,0 +1,11 @@
+<?php
+
+function count_node_theme(){
+    return [
+        'content_block' => [
+            'variables' => ['result' => NULL, ]  
+        ]
+    ];
+}
+
+

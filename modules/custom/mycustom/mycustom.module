@@ -1,0 +1,62 @@
+<?php
+
+/**
+ * @file
+ * Adds support for serializing entities to Hypertext Application Language.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function mycustom_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  
+  if ($form_id == 'system_site_information_settings') {
+    /*kint($form['site_information']['site_name']['#default_value']);
+    die;*/
+    $un = \Drupal::state()->get('mycustom') ?: ' ';
+    $form['mycustom'] = array(
+     '#type' => 'textfield',
+     '#title' => t('User'),
+     '#default_value' => $un,
+     '#description' => t('Description'),
+    );
+    $form['#validate'][]='mycustom_form_alter_validate';
+    $form['#submit'][]='mycustom_form_alter_submit';
+    $form['#attached']['library'][] = 'mycustom/drupal.mycustom';
+  } 
+}
+
+function mycustom_form_alter_validate(array &$form, \Drupal\Core\Form\FormStateInterface $form_state){
+  
+  $name=$form_state->getValue('mycustom');
+  if (!preg_match_all('/^[a-zA-Z]+$/', $name)){
+    $form_state->setErrorByName('mycustom', t('Your user name should have alphabets only'));
+  }
+}
+
+function mycustom_form_alter_submit(array &$form, \Drupal\Core\Form\FormStateInterface $form_state){
+  
+  $name=$form_state->getValue('mycustom');
+  \Drupal::state()->set('mycustom', $name);  
+}
+
+/*  Implements hook_help().  */
+function mycustom_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.main': return "This is my help text";
+    case 'help.page.mycustom': return "This is my help text";
+  }
+}
+
+function mycustom_page_attachments(array &$page) {
+ //$page['#attached']['library'][] = 'mycustom/drupal.mycustom';
+ /*$page['#attached']['drupalSettings']['mycustom'] = [
+     'name' => 'Kirti',
+     'interest' => 'Solving puzzles'
+     ];*/
+}
+
+function mycustom_block_view_alter(array &$build, \Drupal\Core\Block\BlockPluginInterface $block) {
+  // Remove the contextual links on all blocks that provide them.
+ /* $build['#attached']['library'][] = 'mycustom/drupal.mycustom';*/
+} 

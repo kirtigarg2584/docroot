@@ -1,0 +1,258 @@
+.tabs.primary li a{
+	border: 1px solid #516899;
+}
+.entry-meta .entry-like:hover{
+	color:#516899;	
+}
+.pager .pager-current {
+	background-color: #516899;	
+}
+.pager li>a:hover{
+	background-color: #516899;
+}
+.linkmenu > li:hover > a {
+	color: #516899;
+}
+.linkmenu ul {
+	background: #516899;
+}
+.linkmenu>li>.sub-menu:after {
+	border-color: transparent transparent #516899 transparent;
+}
+#bottom .footer a:hover {
+	color: #516899;
+}
+.featured .block-like {
+	background: #516899;
+}
+.featured .entry-category a {
+	background-color: #516899;
+}
+.next-prev a:hover {
+	color: #516899;
+}
+.tags a {
+	background: #516899;
+}
+.author-link a:hover {
+	color: #516899;
+}
+.block-more .fa {
+	color: #516899;
+}
+.block-more:hover {
+	color: #516899;
+}
+.entry-image .entry-category a {
+	background-color: #516899;
+}
+.block-heading > a:hover, .posts .entry-title a:hover {
+	color: #516899;
+}
+.single .entry-category:hover .fa {
+	color: #516899;
+}
+.block-meta a:hover, .entry-meta a:hover {
+	color: #516899;
+}
+#content .block-meta a:hover {
+	color: #516899;
+}
+.block-top .entry-category a {
+	background-color: #516899;
+}
+.block-5 .block-top .block-meta a:hover {
+	color: #516899 !important;
+}
+.block-9 .post:hover .block-excerpt:after {
+	background-color: #516899;
+}
+.rating {
+	color: #516899;
+}
+.block-7 .block-top .block-meta a:hover {
+	color: #516899 !important;
+}
+.pagination span.current {
+	background-color: #516899;
+}
+.pagination a:hover {
+	background-color: #516899;
+}
+.widgettitle span {
+	border-bottom: 2px solid #516899;
+}
+.widget li > a:hover {
+	color: #516899;
+}
+.block-category a {
+	background: #516899;
+}
+.owl-shortnews-nav .owl-prev:hover, .owl-shortnews-nav .owl-next:hover {
+	background-color: #516899;
+}
+.widget_neatly-recent-posts .shortnews-block .neatly-read-more:hover {
+	color: #516899;
+}
+.widget_neatly-recent-posts .shortnews-block a:hover h4 {
+	color: #516899;
+}
+.tag-cloud-widget [class*='tag-link-'] {
+ background: #516899;
+}
+.widget_winvader_liked_posts .title-wrapper .title:before {
+	color: #516899;
+}
+.liked-posts .block-content .count {
+	color: #516899;
+}
+ul#recentcomments li.recentcomments a:hover {
+	color: #516899;
+}
+.tp_recent_tweets li:before {
+	color: #516899;
+}
+.widget_winvader_posts .block-meta a:hover {
+	color: #516899;
+}
+#wrapper .gallery a:after {
+	background: #516899;
+}
+.btn, input[type="reset"], input[type="submit"], #submit {
+	background-color: #516899;
+}
+.btn.readmore {
+	background-color: #516899;
+}
+.imgoverlay:before {
+	background: #516899;
+}
+.entry-meta a:hover {
+	color: #516899;
+}
+code {
+	color: #516899;
+}
+.alert-info {
+	background-color: #516899;
+}
+.btn-default {
+	background: #516899;
+}
+.badge {
+	background-color: #516899;
+}
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #516899 !important;
+}
+.mejs-controls a:focus > .mejs-offscreen {
+	border-bottom: 2px solid #516899 !important;
+}
+#magic-line {
+	background: #516899;
+}
+#footer-menu-container a:hover, #footer-menu-container .activate {
+	color:#516899;
+}
+#footer-menu-container .sub-menu {
+	border-bottom:3px solid #516899;
+}
+#footer-menu-container .sub-menu a:hover {
+	color: #516899;
+}
+.dark .tp_recent_tweets a:hover {
+	color: #516899;
+}
+#footer-widget .winvadertheme-instagram-feed .owl-theme .owl-dots .active span {
+	background: #516899;
+}
+#footer-widget .widget li > a:hover {
+	color: #516899;
+}
+#footer-widget .widget_pages ul li a:before {
+	color: #516899;
+}
+#footer-widget .widget_winvader_posts .block-meta a:hover {
+	color: #516899;
+}
+#footer-widget .widget_neatly-recent-posts .shortnews-block a h4:hover {
+	color: #516899;
+}
+#footer-widget .block-meta a:hover, #footer-widget .entry-meta a:hover {
+	color: #516899;
+}
+#footer-widget .widget_neatly-recent-posts .shortnews-block .neatly-read-more:hover {
+	color: #516899;
+}
+.dark a {
+	color: #516899;
+}
+.dark .block-heading > a:hover,  .dark .posts .entry-title a:hover {
+	color: #516899;
+}
+.dark #content .block-meta a:hover {
+	color: #516899;
+}
+.dark .block-more:hover {
+	color: #516899;
+}
+.dark #mainmenu > li:hover > a {
+	color: #516899;
+}
+.dark .owl-theme .owl-dots .active span {
+	background: #516899;
+}
+.dark .widget li > a:hover {
+	color: #516899;
+}
+.dark .widget_pages ul li a:before {
+	color: #516899;
+}
+.dark .widget_winvader_posts .block-meta a:hover {
+	color: #516899;
+}
+.dark .widget_neatly-recent-posts .shortnews-block a h4:hover {
+	color: #516899;
+	opacity: 1;
+}
+.dark .block-meta a:hover,  .dark .entry-meta a:hover {
+	color: #516899;
+}
+.dark .widget_neatly-recent-posts .shortnews-block .neatly-read-more:hover {
+	color: #516899;
+}
+.dark .alert code {
+	color: #516899;	
+}
+a {
+	color: #516899;
+}
+blockquote:after {
+	background-color: #516899;
+}
+blockquote:before {
+	border-color: transparent #516899 transparent transparent;	
+}
+.sticky .block-side:after,
+.sticky .entry-image:after {
+	border-color: transparent #516899 transparent transparent;
+}
+.cfa-wrapper a span { 
+	color: #516899; 
+}
+.toggle {
+	background-color: #516899;	
+}
+.toggle.on {
+  background: #516899;
+}
+
+#mainmenu > li:hover > a {
+	color: #516899;
+}
+#mainmenu ul {
+	background: #516899;
+}
+.featured a {
+	color: #FFF;	
+}

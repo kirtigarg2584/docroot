@@ -1,0 +1,7 @@
+harsh_task.form:
+  path: '/admin/harsh_task'
+  defaults:
+    _form: 'Drupal\custom\harsh_task\Form\Ques1'
+    _title: 'Harsh_task'
+  requirements:
+    _permission: 'access administration pages'

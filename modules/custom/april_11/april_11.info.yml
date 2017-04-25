@@ -1,0 +1,6 @@
+name: '11 April Form'
+type: module
+description: 'Form to implement ajax call'
+package: Web services
+version: VERSION
+core: 8.x

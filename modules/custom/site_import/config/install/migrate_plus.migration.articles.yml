@@ -1,0 +1,28 @@
+id: articles
+label: Article node
+migration_group: nodes
+source:
+  plugin: article_node
+destination:
+  plugin: entity:node
+process:
+  type:
+    plugin: default_value
+    default_value: article
+  title: title
+  uid:
+    plugin: default_value
+    default_value: 1
+  sticky:
+    plugin: default_value
+    default_value: 0
+  status: status
+  'body/value': content
+  'body/summary': profile_title
+  'body/format':
+    plugin: default_value
+    default_value: full_html
+dependencies:
+  enforced:
+    module:
+      - site_import

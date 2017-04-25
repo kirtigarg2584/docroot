@@ -1,0 +1,54 @@
+<div id="page">
+    
+  {% if page.top_header %}
+    <div class="top_header">
+      {{page.top_header}}
+    </div>    
+  {% endif %}
+  
+  {% if page.header_line %}
+    <div class="header_line">
+      {{page.header_line}}
+    </div>    
+  {% endif %}
+  
+  <div id="skin">
+  
+    <header id="header" class="header">
+      {% if page.header_first or page.header_second %}
+        <div id="header_first" class="header_first">
+          {{page.header_first}}  
+        </div>
+        <div id="header_second" class="header_second">
+          {{page.header_second}}  
+        </div>
+      {% endif %}
+    </header>
+  
+    {% if page.mid_header %}
+      <div class="mid_header">
+        {{page.mid_header}}
+      </div>    
+    {% endif %}
+  
+    {% if page.content or page.right_sidebar %}
+      <div class="header">
+        <div class="content">
+     
+          {{page.content}}
+        </div>
+        <div class="right_sidebar">
+          {{page.right_sidebar}}
+        </div>
+      </div>
+    {% endif %}
+  
+    {% if page.footer %}
+      <footer>
+        <div class="footerbar">
+        {{page.footer}}
+        </div>
+      </footer>
+    {% endif %}
+  </div>
+</div>

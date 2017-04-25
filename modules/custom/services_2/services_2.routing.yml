@@ -1,0 +1,44 @@
+services_2.form:
+  path: '/admin/services-2'
+  defaults:
+    _form: '\Drupal\services_2\Form\Ques2'
+    _title: 'Form'
+  requirements:
+    _permission: 'access administration pages'
+    
+services_2.contact-list:
+  path: '/contact-list'
+  defaults:
+    _controller: '\Drupal\services_2\Controller\Display::content'
+    _title: 'Contact-List'
+  requirements:
+    _permission: 'access administration pages'  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      

@@ -1,0 +1,22 @@
+#learning_site.info.yml
+name: learning_site
+type: theme
+Description: 'Learning site customised theme'
+package: custom
+core: 8.x
+base theme: classy
+libraries:
+ - learning_site/global-styling
+  
+regions:
+  top_header: 'Top Header'
+  header_line: 'Header Line'
+  header_first: 'Header first'
+  header_second: 'Header second'
+  mid_header: 'Middle Header'
+  bot_header: 'Bottom Header'
+  content: 'Main content'
+  right_sidebar: 'Right Sidebar'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'

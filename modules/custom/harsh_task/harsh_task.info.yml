@@ -1,0 +1,6 @@
+name: 'Harsh Task'
+type: module
+description: 'Custom module.'
+package: Web services
+version: VERSION
+core: 8.x
